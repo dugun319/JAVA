@@ -34,12 +34,12 @@ public class Ex_0302 {
 				case 1 :
 					System.out.print("입금액 : ");
 					tempMoney = scanner.nextInt();
-					balance = balance + tempMoney;
+					balance += tempMoney;
 					break;
 				case 2 :
 					System.out.print("출금액 : ");
 					tempMoney = scanner.nextInt();
-					balance = balance - tempMoney;
+					balance -= tempMoney;
 					break;
 				case 3 :
 					System.out.println("잔고 : " + balance);
