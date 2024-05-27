@@ -33,8 +33,9 @@ public class Ex_0302 {
 
 				case 1 :
 					System.out.print("입금액 : ");
-					tempMoney = scanner.nextInt();
-					balance += tempMoney;
+//					tempMoney = scanner.nextInt();
+//					balance += tempMoney;
+					balance += scanner.nextInt();
 					break;
 				case 2 :
 					System.out.print("출금액 : ");
