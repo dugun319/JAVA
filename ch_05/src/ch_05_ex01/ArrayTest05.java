@@ -7,7 +7,10 @@ public class ArrayTest05 {
 		String [] m = {"Name", "Korean", "English", "Math", "Total", "Average"};
 		String [] name = {"XIAH", "High", "Ye-Eun", "Guckka"};
 		
-		int [][] score = {{80, 70, 90}, {70, 90, 90}, {80, 70, 80}, {90, 90, 70}};
+		int [][] score = {{80, 70, 90},
+						  {70, 90, 90},
+						  {80, 70, 80},
+						  {90, 90, 70}};
 		
 		int [] t_score = new int[3];
 		int sum = 0;
@@ -26,7 +29,9 @@ public class ArrayTest05 {
 			for(int j = 0 ; j < score[i].length ; j++) {
 				System.out.printf("%d\t", score[i][j]);
 				sum += score[i][j];
+				//sum은 사람의 총계
 				t_score[j] += score[i][j];
+				//t_score는 과목에 대한 총계를 의미
 			}
 			
 			System.out.printf("%d\t", sum);

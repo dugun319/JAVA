@@ -14,12 +14,16 @@ public class ArrayEx15 {
 		
 		char op = args[1].charAt(0);
 		
+		int num1 = Integer.parseInt(args[0]);
+		int num2 = Integer.parseInt(args[2]);
+		
 		System.out.println("op -> " + op);
 		
 		switch(op) {
 		
 			case '+' :
-				result = Integer.parseInt(args[0]) + Integer.parseInt(args[2]);
+				//result = Integer.parseInt(args[0]) + Integer.parseInt(args[2]);
+				result = num1 + num2;
 				System.out.println("result -> " + result);
 				break;
 			case '-' :
